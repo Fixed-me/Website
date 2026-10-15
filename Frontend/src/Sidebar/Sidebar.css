@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+.Logo {
+    margin-bottom: 4svh;
+    margin-left: 10%;
+    margin-top: 2svh;
+}
+
+.Logo > img {
+    width: 30%;
+}
+
+.Sites {
+    margin-left: 12%;
+}
+
+.Sites > div {
+    min-width: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Sites > div:hover {
+    background-color: oklch(43.2% 0.232 292.759);
+}
+
+.Sites > div > img {
+    padding-left: 7px;
+    width: 20%;
+}
+
+.Links {
+    margin-left: 12%;
+    margin-top: auto;
+    margin-bottom: 6%;
+}
+
+.Links > img {
+    margin-top: 1vh;
+}
