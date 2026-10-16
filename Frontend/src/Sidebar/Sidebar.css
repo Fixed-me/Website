@@ -1,32 +1,44 @@
-@import "tailwindcss";
-
 .Logo {
     margin-bottom: 4svh;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 2svh;
 }
 
-.Logo > img {
-    width: 30%;
+.Logo-img {
+    width: 25%;
+}
+
+.arrow {
+    margin-left: 20%;
+    width: 15% !important;
+}
+
+.arrow:hover {
+    cursor: pointer;
 }
 
 .Sites {
-    margin-left: 12%;
+    margin-left: 5%;
 }
 
 .Sites > div {
-    min-width: 90%;
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .Sites > div:hover {
     background-color: oklch(43.2% 0.232 292.759);
+    cursor: pointer;
 }
 
 .Sites > div > img {
     padding-left: 7px;
     width: 20%;
+}
+
+.Sites > div > p {
+    align-self: center;
 }
 
 .Links {
@@ -37,4 +49,9 @@
 
 .Links > img {
     margin-top: 1vh;
+    width: 20%;
+}
+
+.Links > img:hover {
+    cursor: pointer;
 }
