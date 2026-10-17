@@ -2,9 +2,10 @@
 @import "tailwindcss";
 
 body {
-    background-color: oklch(14.1% 0.005 285.823);
+    background-color: #0B0B0E;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-size: small;
     font-style: normal;
+    color: #F0EDF5;
 }

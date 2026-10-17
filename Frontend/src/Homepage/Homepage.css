@@ -1,1 +1,11 @@
-@import "tailwindcss";
+.Aboutme {
+    height: 20vh;
+}
+
+.Aboutme > h1 {
+    font-size: x-large !important;
+}
+
+.violet {
+    color: #8B35E8;
+}
